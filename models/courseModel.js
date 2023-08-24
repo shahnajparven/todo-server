@@ -34,11 +34,11 @@ const courseSchema = new Schema({
   poster: {
     public_id: {
       type: String,
-      required: true,
+      // required: true,
     },
     url: {
       type: String,
-       required: true,
+      //  required: true,
     },
   },
   views: {
